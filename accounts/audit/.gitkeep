@@ -1,0 +1,16 @@
+# Security Tooling Account
+# 
+# This account houses centralized security monitoring and incident response tools:
+# - AWS Security Hub (delegated administrator)
+# - Amazon GuardDuty (threat detection)
+# - AWS Config (compliance monitoring)
+# - Amazon Inspector (vulnerability assessment)
+# - IAM Access Analyzer (external access detection)
+# - AWS Audit Manager (compliance automation)
+# - Amazon Detective (security investigation)
+# - AWS Firewall Manager (centralized firewall policies)
+#
+# Following AWS best practices from:
+# https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/foundational-ous.html#security-ou
+#
+# Remove this file when adding actual Terraform resources

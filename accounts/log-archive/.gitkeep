@@ -1,0 +1,27 @@
+# Logs Account (Security OU)
+#
+# This account serves as the centralized log archive for the organization:
+# - Organization-wide CloudTrail (all API calls)
+# - AWS Config aggregation (compliance data)
+# - VPC Flow Logs from all accounts
+# - Application logs from workload accounts
+# - Security event logs and findings
+# - Immutable log storage with lifecycle policies
+#
+# Key features:
+# - Immutable log storage (write-once, read-many)
+# - Long-term retention for compliance (7+ years)
+# - Cross-account log shipping from all accounts
+# - Log analysis and search capabilities
+# - Integration with SIEM and security tools
+# - Automated log integrity validation
+#
+# Access patterns:
+# - Security account: read-only access for analysis
+# - Workload accounts: write-only access for log shipping
+# - Audit teams: controlled read access for compliance
+#
+# Following AWS best practices from:
+# https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/foundational-ous.html#security-ou
+#
+# Remove this file when adding actual Terraform resources

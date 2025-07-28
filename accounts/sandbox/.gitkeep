@@ -1,0 +1,27 @@
+# Sandbox Account (Sandbox OU)
+#
+# This account provides a safe experimentation environment for developers:
+# - Individual developer playground environments
+# - Proof-of-concept and prototyping resources
+# - Training and learning environments
+# - Short-lived experimental workloads
+# - AWS service evaluation and testing
+# - Cost-controlled innovation space
+#
+# Security controls (via Service Control Policies):
+# - Regional restrictions (us-east-1, sa-east-1, us-west-2 only)
+# - Prevents access to Organizations and billing
+# - Limited support and trusted advisor access
+# - Automatic resource cleanup policies
+# - Cost budgets and spending alerts
+#
+# Use cases:
+# - Developer skill development
+# - Architecture proof of concepts
+# - Service evaluation before production use
+# - Temporary testing environments
+# - Innovation and experimentation
+#
+# Following AWS best practices for safe experimentation
+#
+# Remove this file when adding actual Terraform resources

@@ -1,0 +1,21 @@
+# Staging Account (Workloads OU)
+#
+# This account provides production-like environment for final validation:
+# - Production-parity staging EKS clusters
+# - Production-like VPC and networking configuration
+# - Staging databases with production-like data
+# - Performance and load testing environments
+# - Security and compliance validation
+# - User acceptance testing (UAT)
+# - Blue/green deployment testing
+#
+# Key characteristics:
+# - Production parity for accurate testing
+# - Isolated from production for safe testing
+# - Automated promotion pipelines from development
+# - Production-like monitoring and alerting
+# - Cost optimization for staging workloads
+#
+# Following AWS best practices for pre-production environments
+#
+# Remove this file when adding actual Terraform resources

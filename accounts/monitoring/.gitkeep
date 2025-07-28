@@ -1,0 +1,28 @@
+# Monitoring Account
+#
+# This account provides centralized observability and monitoring across the organization:
+# - CloudWatch cross-account observability (monitoring hub)
+# - Amazon Managed Grafana (enterprise dashboards)
+# - Amazon Managed Prometheus (metrics aggregation)
+# - Amazon OpenSearch (log analysis and search)
+# - AWS X-Ray (distributed tracing)
+# - AWS CloudWatch Insights (log analytics)
+# - Cost and usage monitoring dashboards
+# - Performance monitoring and alerting
+# - Custom monitoring automation and reports
+#
+# Cross-account access patterns:
+# - Read-only access to CloudWatch metrics/logs in all accounts
+# - S3 access to log archive for analysis
+# - SNS topic subscriptions for organization-wide alerts
+#
+# Benefits:
+# - Single pane of glass for organization monitoring
+# - Centralized alerting and incident management
+# - Cost optimization through usage analytics
+# - Performance trending and capacity planning
+#
+# Following AWS best practices from:
+# https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/foundational-ous.html#infrastructure-ou
+#
+# Remove this file when adding actual Terraform resources

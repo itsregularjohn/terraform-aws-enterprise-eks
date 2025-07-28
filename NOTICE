@@ -1,0 +1,22 @@
+Enterprise EKS Reference Architecture on AWS with Terraform
+Copyright © 2025 João Pedro Alves de Oliveira
+
+This project is licensed under the MIT License.
+
+ATTRIBUTION NOTICE:
+If you use, copy, modify, or distribute this project — in whole or in part — you must retain proper attribution to the original author:
+
+Author: João Pedro Alves de Oliveira  
+Repository: https://github.com/itsregularjohn/terraform-aws-enterprise-eks
+
+REQUIREMENTS:
+- Attribution must be preserved in any substantial use of this code
+- This NOTICE file and the LICENSE file must be included with any substantial portion of the code
+- Misrepresentation of authorship (claiming you wrote this from scratch when you didn't) is not permitted
+
+PERMISSIONS:
+- Commercial use, modification, and redistribution are allowed
+- You may build upon this work for your own projects
+- You may use this as a reference for learning and education
+
+The author encourages use of this project but requests proper credit where credit is due.

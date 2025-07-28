@@ -1,0 +1,23 @@
+# Networking Account (Infrastructure OU)
+#
+# This account serves as the networking hub for the organization:
+# - AWS Transit Gateway (inter-VPC connectivity)
+# - Amazon Route53 (shared DNS infrastructure)
+# - AWS Direct Connect (hybrid connectivity)
+# - AWS VPN connections (site-to-site connectivity)
+# - AWS Network Firewall (centralized traffic inspection)
+# - Route53 Resolver (hybrid DNS resolution)
+# - VPC endpoints (shared service endpoints)
+# - IPAM (IP Address Management)
+# - Network monitoring and flow logs
+#
+# Cross-account sharing:
+# - Transit Gateway resource sharing via AWS RAM
+# - Route53 hosted zones shared across accounts
+# - VPC endpoint sharing for cost optimization
+# - Centralized DNS resolution for all accounts
+#
+# Following AWS best practices from:
+# https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/foundational-ous.html#infrastructure-ou
+#
+# Remove this file when adding actual Terraform resources

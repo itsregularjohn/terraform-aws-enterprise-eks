@@ -1,0 +1,23 @@
+# Services Account (Infrastructure OU)
+#
+# This account houses shared tools and utilities used across the organization:
+# - CI/CD pipelines (cross-account deployment)
+# - AWS Service Catalog (standardized resource templates)
+# - License management and software distribution
+# - Artifact repositories (Docker images, packages)
+# - Code repositories and build systems
+# - Internal wikis and documentation systems
+# - Shared development tools and utilities
+# - Template and blueprint repositories
+#
+# Shared services examples:
+# - Jenkins/GitLab for CI/CD automation
+# - Nexus/Artifactory for artifact management
+# - Internal service catalogs
+# - Shared monitoring dashboards
+# - Cost optimization tools
+# - Security scanning and compliance tools
+#
+# Following AWS best practices for shared services consolidation
+#
+# Remove this file when adding actual Terraform resources

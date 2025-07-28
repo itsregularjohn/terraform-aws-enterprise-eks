@@ -1,0 +1,21 @@
+# Backup Account
+#
+# This account serves as the centralized hub for backup and disaster recovery:
+# - AWS Backup (cross-account backup management)
+# - Backup vaults with cross-account access
+# - Organization backup policies
+# - Disaster recovery automation
+# - Backup compliance monitoring
+# - Cross-region backup replication
+#
+# Benefits:
+# - Centralized backup management across all accounts
+# - Consistent backup policies and retention
+# - Enhanced security through account isolation
+# - Simplified compliance and auditing
+# - Cost optimization through centralized storage
+#
+# Following AWS best practices from:
+# https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/foundational-ous.html#infrastructure-ou
+#
+# Remove this file when adding actual Terraform resources
